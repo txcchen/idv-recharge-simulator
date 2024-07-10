@@ -68,6 +68,17 @@
     height: 100px;
     object-fit: contain;
     margin: auto;
+
+    animation: fadeIn 0.5s linear;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
 }
 
 .baseAmount{
